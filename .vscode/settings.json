@@ -36,7 +36,7 @@
   // Excluded
   "files.exclude": {
     "**/.git": true,
-    ".design": false,
+    ".design": true,
     ".eslintignore": true,
     ".eslintrc": true,
     ".github": true,
@@ -46,7 +46,7 @@
     ".prettierrc": true,
     "guide.md": true,
     "next-env.d.ts": true,
-    "next.config.js": true,
+    "next.config.js": false,
     "node_modules": true,
     "out": true,
     "package-lock.json": true,

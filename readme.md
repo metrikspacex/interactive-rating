@@ -49,7 +49,13 @@ Users should be able to:
 
 ### Learned
 
--
+- Using a form rather than doing it the way I did...
+
+### Hopes
+
+- Finding a way to write css that is a mix between tailwindcss and modules
+- Hate the lack of readability of tailwindcss when trying to debug css and with
+  modules, finding a proper structure for css.
 
 ### Useful resources
 
