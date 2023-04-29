@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  *.absolute-center {
+    @apply absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%];
+  }
+  button.hovering {
+    &:hover {
+      cursor: pointer;
+      @apply bg-white;
+    }
+  }
+  li.hovering {
+    &:hover {
+      cursor: pointer;
+      @apply bg-orange;
+      & > h3 {
+        @apply text-white;
+      }
+    }
+  }
+  li.selected {
+    @apply bg-light-grey;
+    & > h3 {
+      @apply text-white;
+    }
+  }
+}

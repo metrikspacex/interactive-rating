@@ -1,0 +1,6 @@
+.next
+dist
+dist-ssr
+next.config.js
+node_modules
+out
